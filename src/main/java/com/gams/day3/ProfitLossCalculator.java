@@ -12,11 +12,11 @@ public class ProfitLossCalculator {
          if (sellingprice>costprice){
              System.out.println("profit");
              double profitamount =sellingprice-costprice;
-             System.out.println("enter the profit amount"+profitamount+"");
+             System.out.println("enter the profit amount"+profitamount+" ");
          }else {
              System.out.println("loss");
              double lossamount = costprice - sellingprice;
-             System.out.println("enter the loss amount"+lossamount+"");
+             System.out.println("enter the loss amount"+lossamount+" ");
          }
     }
 }
