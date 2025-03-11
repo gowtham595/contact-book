@@ -10,7 +10,7 @@ public class Factorialofgivennum {
         for (int i =1; i<=n; i++) {
             num*= i;
         }
-        System.out.println("factorial of the given num"+n+" is "+num+"");
+        System.out.println("factorial of the given num  "+n+" is "+num+"");
     }
 
 }
